@@ -1,0 +1,139 @@
+/*styling for the teams page and table within */
+
+table {
+	font-family: inherit;
+	margin: auto;
+	padding: 0;
+	width: 75%;
+	border-spacing: 0;
+	border-bottom: 5px;
+	}
+
+/*table header styling*/
+tr th {
+	background-color: #629118;
+	background: -webkit-linear-gradient(#CCCCB2,#757519);
+	color: #ffffff;
+	text-shadow: 2px 2px 8px lightgreen;
+	font-size: 120%;
+	align-content: center;
+	padding: 10px;
+	border-left: 3px solid #ffffff;
+
+}
+
+tr td {
+	padding: 10px;
+	line-height: 30px;
+	border: 3px solid #ffffff;
+	font-size: 18px;
+	color: #231a21;
+	background-color: #bee580;
+	border-radius: 2px;
+	opacity: .8;
+}
+
+/*first column text align left*/
+td:nth-child(1) {
+	text-align: left;
+}
+tr th:nth-child(1) {
+	text-align: left;
+}
+
+/*columns 2 and 3 text align center*/
+td:nth-child(2),td:nth-child(3) {
+	text-align: center;
+}
+
+/*rounded border top right*/
+th:last-child {
+	border-radius: 0 20px 0 0;
+}
+
+/*rounded border top left*/
+th:first-child {
+	border-radius: 20px 0 0 0;
+}
+
+/*team names opacity change on hover*/
+tr td:nth-child(1):hover {
+	opacity: 1;
+	}
+
+
+
+/*styling from the previous assignment */
+img {
+height: 150px;
+width: 200px;
+display: block;
+margin: 20px; 10px;
+border: 2px solid black;
+}
+
+
+h1 {
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+header {
+	height: 200px;
+	background-image: url("../images/flywheel.jpg");
+	background-size: cover;
+	background-color: #99FF66;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+a:focus {
+	background-color: #FF6699;
+}
+
+
+nav a {
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	margin: 0 20px 0 100px;
+	padding-top: 20px;
+	text-decoration: none;
+	border-radius: 10px;
+	background: rgba(233, 225, 225, 0.3);
+	font-weight: bold;
+	text-align: center;
+	color: black;
+
+
+}
+.active {
+  background-color: #FFFFFF;
+	opacity: 1;
+}
+
+.right {
+	display: inline-block;
+	float: right;
+	width: 80%;
+	font-size: 150%;
+}
+.left {
+	float: left;
+	background-color: #669900;
+	display: inline-block;
+	width: 15%;
+	height: 75vh;
+}
+
+body {
+margin: 0 auto;
+padding: 2% 5%;
+width: 90%;
+
+}
